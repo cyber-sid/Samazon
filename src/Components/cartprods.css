@@ -1,0 +1,31 @@
+.main-box{
+    display: flex;
+    margin: 20px 0px;
+}
+.prod-info{
+    padding-left: 20px;
+    width:100%;
+}
+.cart-but{
+    background: rgb(255, 225, 0);
+    border-radius: 9px;
+    box-shadow: 1px 2px 9px rgb(126, 125, 125);
+    margin-top: 10px;
+    border: none;
+    color: black;
+    padding:0px 10px; 
+}
+
+.cart-but:hover{
+    background-color: rgb(255, 196, 1); 
+}
+.cart-img{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.cart-title{
+    font-size: 17px;
+    font-weight: 500;
+}

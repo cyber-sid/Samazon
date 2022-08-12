@@ -1,0 +1,77 @@
+.navbar{
+    background-color: rgb(27, 27, 52);
+    height:70px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+}
+.nav-img{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+.nav-search{
+    display: flex;
+    flex: 1;
+    align-content: center;
+    border-radius: 24px;
+    
+    
+}
+.sea-tex{
+    height: 20px;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius:3px ;
+}
+.sea-icon{
+    background-color:rgb(234, 161, 27) ;
+    padding: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 31px !important;
+    width: 31px !important;
+    
+}
+.nav-link{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1px 10px;
+}
+
+.nav-opt{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0px 15px;
+    
+}
+a{
+    text-decoration: none;
+
+}
+
+.op1{
+    font-size: 10px;
+    margin-top: 2px;
+    margin-bottom: -2px;
+    
+}
+.op3{
+    font-size: 10px;
+    margin-left: 10px;}
+
+.op2{
+    font-weight: bolder;
+    margin-top: -1px;
+}
+
+.cart{
+    height: 20px !important;
+}
